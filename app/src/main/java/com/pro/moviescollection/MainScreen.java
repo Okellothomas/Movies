@@ -22,7 +22,12 @@ public class MainScreen extends AppCompatActivity {
 
 
         binding.floatingActionButton.setOnClickListener((View v)->{
+
+            // get the user input
+            String name = binding.name.getText().toString();
+            // declare the intent variable .
             Intent intent = new Intent(MainScreen.this, MoviesActivity.class);
+            intent.putExtra("name", name);
             startActivity(intent);
         });
 

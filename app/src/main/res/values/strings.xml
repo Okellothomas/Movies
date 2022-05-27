@@ -5,4 +5,5 @@
     <string name="favorite_movie_list">Favorite Movie List</string>
     <string name="user">user</string>
     <string name="enter_user_name">Enter User Name</string>
+    <string name="name">name</string>
 </resources>
