@@ -25,6 +25,7 @@
       </activity>
         <activity
             android:name=".MainScreen"
+            android:theme="@style/MainScreen"
             android:exported="false"
             />
         <activity
