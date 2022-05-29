@@ -1,6 +1,7 @@
 package com.pro.moviescollection;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -31,5 +32,10 @@ public class MainScreen extends AppCompatActivity {
             startActivity(intent);
         });
 
+        binding.floatingActionButton2.setOnClickListener((View v)->{
+            FragmentManager bf = getSupportFragmentManager();
+            BackgroundFragment backgroundFragment = new BackgroundFragment();
+            backgroundFragment.show(bf, "Sample Fragment");
+        });
     }
 }

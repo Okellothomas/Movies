@@ -7,4 +7,9 @@
     <string name="enter_user_name">Enter User Name</string>
     <string name="movies_list">Movies List</string>
     <string name="name">name</string>
+    <string name="choose_your_view_mode">Choose your view mode?</string>
+    <string name="day_mode">Day Mode</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="cancel">cancel</string>
+    <string name="submit">Submit</string>
 </resources>
