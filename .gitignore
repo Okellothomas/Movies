@@ -67,3 +67,4 @@ settings.gradle
 ############
 .idea
 .idea/
+/gradle.properties
